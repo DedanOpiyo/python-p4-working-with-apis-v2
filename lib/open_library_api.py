@@ -46,7 +46,9 @@ class Search:
 
 
 # results = Search().get_search_results()
-# print(results)
+# # print(results)
+# polished_result = json.loads(results)
+# print(json.dumps(polished_result, indent=1)) # sort_keys=True etc
 
 # results_json = Search().get_search_results_json()
 # print(json.dumps(results_json, indent=1))
